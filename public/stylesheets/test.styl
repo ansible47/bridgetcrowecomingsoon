@@ -1,0 +1,244 @@
+grid-width = 100%
+grid-min-width = 320px
+base-font-size = 3em
+base-line-height = 1em
+base-color = #00C7C7
+vendors = webkit moz o official
+
+@import "../../node_modules/fluidity/lib/fluidity"
+
+$color-fade = #C0C0C0
+
+
+body
+  font-family: 'Amatic SC', cursive;
+	
+
+#container
+  grid(90%, 400px)
+  padding-bottom:0%
+  margin-bottom:0%
+	
+.welcome
+  line-height:80%;
+  width:65%;
+  margin-left:17.5%;
+	
+.welcome:hover
+  box-shadow:0px 0px 50px gray
+  -webkit-transition: box-shadow .50s ease
+  -moz-transition: box-shadow .50s ease
+  -ms-transition: box-shadow .50s ease
+  -o-transition: box-shadow .50s ease
+  transition: box-shadow .50s ease
+	
+h1
+  color:base-color
+  margin-top:0%
+  margin-bottom:0%
+  margin-left:0%
+  margin-right:0%
+  line-height:95%
+
+h2
+  color:base-color
+  margin-left:0%
+  margin-right:0%
+  margin-top:0%
+  margin-bottom:0%
+  line-height:95%
+  font-size: 90%
+
+h3 
+  margin-left:0%
+  color:base-color
+  margin-right:0%
+  margin-top:0%
+  margin-bottom:0%
+  font-size: 70%
+	
+h4
+  line-height:95%
+  font-size: 50%
+	
+.centered 
+  text-align:center
+	
+a
+  text-decoration: none
+  color: base-color
+
+a:hover
+  color:$color-fade
+  -webkit-transition: color .30s ease
+  -moz-transition: color .30s ease
+  -ms-transition: color .30s ease
+  -o-transition: color .30s ease
+  transition: color .30s ease
+	
+foot:hover
+  color:#C0C0C0
+  -webkit-transition: color .30s ease
+  -moz-transition: color .30s ease
+  -ms-transition: color .30s ease
+  -o-transition: color .30s ease
+  transition: color .30s ease
+
+
+.hoverBorder:hover
+  box-shadow:0px 0px 50px gray
+  -webkit-transition: box-shadow .50s ease
+  -moz-transition: box-shadow .50s ease
+  -ms-transition: box-shadow .50s ease
+  -o-transition: box-shadow .50s ease
+  transition: box-shadow .50s ease
+	
+footer
+  bottom:0
+	
+html, body
+  height: 100%;
+
+#wrap
+  min-height: 100%;
+
+#main 
+  overflow:auto;
+
+#footer
+  margin-top: 1%
+  position: relative
+  clear:both;
+  width:100%;
+	
+//////////////////////////////////////////
+
+nav
+  border: 2px solid black
+  height: 140px
+  width:98%
+  margin-left:0
+  margin-top:15px;
+
+nav:hover
+   opacity:0px 0px 50px gray
+  -webkit-transition: opacity .50s ease
+  -moz-transition: opacity .50s ease
+  -ms-transition: opacity .50s ease
+  -o-transition: opacity .50s ease
+  transition: opacity .50s ease
+	
+	
+nav:hover
+  border: 2px solid $color-fade
+  -webkit-transition: border .50s ease
+  -moz-transition: border .50s ease
+  -ms-transition: border .50s ease
+  -o-transition: border .50s ease
+	transition: border .50s ease
+
+header
+  line-height:80%
+  margin-top:1%
+  
+	
+	
+
+navitem:hover
+  opacity:0px 0px 50px gray
+  -webkit-transition: opacity .50s ease
+  -moz-transition: opacity .50s ease
+  -ms-transition: opacity .50s ease
+  -o-transition: opacity .50s ease
+  transition: opacity .50s ease
+
+
+
+	
+items .item
+  float:left
+  height: 150px
+  border: 2px solid black
+  margin-right: 2%
+  margin-bottom: 2%
+  margin-top: 15px;
+  width:22%;
+  height:45%;
+	
+
+
+navitem:hover
+  border: 2px solid $color-fade
+  -webkit-transition: border .50s eased
+  -moz-transition: border .50s ease
+  -ms-transition: border .50s ease
+  -o-transition: border .50s ease
+  transition: border .50s ease
+	
+.content
+  height:500px;
+	
+	
+/////////////////////////////////////
+
+bio
+  grid-space(60%)
+  padding-right:5%;
+	
+resume
+  grid-space(20%)
+	
+contact
+  grid-space(20%)
+	
+p
+  margin-left:0
+  margin-right:0
+  margin-bottom:0
+  margin-top:0
+  color:base-color
+  font-family: Arial, Helvetica, sans-serif
+  font-size:75%
+	
+//////////////////////////////////////
+
+gallery
+  grid-space(90%)
+	
+gallery-nav
+  grid-space(90%)
+	
+projnav
+  border: 2px solid black
+  height: 140px
+  width:98%
+  margin-left:0
+  margin-top:15px;
+
+.gal
+  margin:0;
+	
+	
+
+.right
+  float:right
+	
+  
+	
+.hover-fade:hover
+  opacity:.8
+  -webkit-transition: all .33s ease
+  -moz-transition: all .33s ease
+  -ms-transition: all .33s ease
+  -o-transition: all .33s ease
+  transition: all .33s ease
+  color:$color-fade
+
+.comingsoon
+  grid-space(95%)
+
+info
+  grid-space(33%)
+	
+
+

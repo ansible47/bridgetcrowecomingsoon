@@ -1,0 +1,40 @@
+doctype 5
+html(lang="en")
+	head
+		title= title
+		
+		link(href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css')
+		
+		-each script in scripts 
+			script(type='text/javascript', src= script)
+
+		link(rel='stylesheet', href='/stylesheets/test.css')
+		
+		script.
+			$(document).ready(function() {   
+				$("body").css("opacity", "0.1");
+				$("body").delay(200).animate({ opacity: 1 }, 200);
+			});
+	body
+		#wrap
+			#container
+				header
+					block header
+				
+			
+				section
+					block content
+	
+	
+			#footer.centered
+				h3
+					foot all images & content &copy; of Bridget Crowe 
+					|
+					foot website &copy;	2013 Jonathan carp 
+
+		
+					
+				
+
+		
+		
